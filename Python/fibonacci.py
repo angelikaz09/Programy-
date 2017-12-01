@@ -21,11 +21,11 @@ def fib_iter(n):
     print (a)
     print (b)
     for i in range(2, n):
-        # tmp = b
-        # b = a + b
-        # a = tmp
+        tmp = b
+        b = a + b
+        a = tmp
         a, b = b, a + b
-        print (a, " wyraz ", i, ": ", b, "iloraz:", b / a)
+        print (a, " wyraz ", i, ": ", b)
 
     return b
 
