@@ -22,7 +22,7 @@ def euklides2(a, b):
 def main(args):
     a = int(input("Podaj iczbe:"))
     b = int(input("Podaj liczbe:"))
-    assert euklides2(1989, 867) == 51
+    assert euklides2(1989, 8567) == 51
     assert euklides2(10, 5) == 5
     print("NWD({d:}, {d:}) = {d:}".format(a, b, euklides2(a, b)))
     return 0

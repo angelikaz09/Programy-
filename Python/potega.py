@@ -5,12 +5,6 @@
 # an = a*......*a (n-czynników)
 
 
-def potega_rek(a, n):
-    if n == 0:
-        return 1
-    return potega_rek(a, n-1) * a
-
-
 def potega_it(podst, wykladnik):
     """ Funkcja oblicza iteracyjnie potęgę l. naturalnej """
     wynik = 1
@@ -18,24 +12,33 @@ def potega_it(podst, wykladnik):
         wynik = wynik * podst
     return wynik
 
+
 # a0 = 1 warunek brzegowy
 # an = a(n-1) * a dla n > 0
 
 
+def potega_rek(a, n):
+    if n == 0:
+        return 1
+    return potega_rek(a, n-1) * a
+
+
+
+
 def main(args):
-    # pobierz od użytkownika podstawe i wykładnik
-    # i przypisz do odpowiednich zmiennych
-    # wywołaj funkcje potega(it)
-    a = int(input("Podaj podstawę:"))
-    n = int(input("Podaj wykładnik:"))
-    potega_it(a,n)
-    assert type(a)==int
-    assert type(n)==int
 
-    assert potega_it(100, 0)==1
-    assert potega_it(2, 3)==0
+    a = int(input("Podaj podstawe:"))
+    n = int(input("Podaj wykladnik:"))
 
-    ## print ("Potega:", potega_it(a,n))
+    assert type(a) == int
+    assert type(n) == int
+
+    assert potega_it(100, 0) == 1
+    assert potega_it(100, 1) == 100
+    assert potega_it(2, 3) == 8
+    assert potega_rek(2, 3) == 8
+
+   ("potega: ", potega_rek(a, n))
 
     return 0
 
