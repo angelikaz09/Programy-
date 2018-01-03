@@ -4,7 +4,6 @@
 #  Witaj.py
 #  
 #osoba="Angelika Ziółkowska"
-#osoba="Angelika Ziółkowska"
 osoba= input ('Jak sie nazywasz?\n')
 print ("Witaj", osoba)
 

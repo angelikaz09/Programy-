@@ -20,7 +20,7 @@ def euklides2(a, b):
         return b
 
 def main(args):
-    a = int(input("Podaj iczbe:"))
+    a = int(input("Podaj liczbe:"))
     b = int(input("Podaj liczbe:"))
     assert euklides2(1989, 8567) == 51
     assert euklides2(10, 5) == 5
