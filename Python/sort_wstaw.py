@@ -14,6 +14,21 @@ def sort_wstaw(lista):
     return lista
 
 
+def wyszukaj_binarnie_it(lewy, prawy, lista, el):
+    lewy, prawy = 0, len(lista) - 1
+    while lewy < prawy:
+        srodek = floor((lewy + prawy) / 2)
+        # print (srodek)
+        if el <= lista[srodek]:
+            prawy = srodek
+        else:
+            lewy = srodek + 1
+
+    if lista[lewy] == el:
+        return lewy # znaleziono element
+
+    return -1 # elementu nie znaleziono
+
 def main(args):
     lista = [4, 3, 7, 0, 2, 3, 1, 9,]
     lista = [9, 8, 7, 6, 5, 4, 3, 2, 1]
