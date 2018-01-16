@@ -7,6 +7,47 @@ Created piątek 12 styczeń 2018
 Algorytm poprawny-rozwiązanie problemu zgodnie ze specyfikacją.
 Specyfikacja problemu-określenie celu algorytmu, określenie danych początkowych.
 Wnioskowanie indukcyjne-metoda dowodzenia, wyprowadzania wniosków, wyciąganie wniosków indukcyjnych. 
-Wnioskowanie dedukcyjne- od ogólu do szczegółu
- 
+Wnioskowanie dedukcyjne- od ogólu do szczegółu.
+
+== Złożoność czasowa algorytmów(o)- ==
+//funkcja wielkości zmiany //
+-funkcja liniowa, np.2n
+-funkcja kwadratowa
+-silnia
+- funkcja logarytmiczna
+
+Efektywność algorytmu zależy od typu danych jakimi kierujemy 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -8,7 +8,6 @@ def silnia_rek(n):
     return silnia_rek(n-1)*n
 
 
-
 def silnia_it(n):
     """ Funkcja oblicza iteracyjnie silnię l. naturalnej """
     wynik = 1
