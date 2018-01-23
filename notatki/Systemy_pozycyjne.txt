@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-17T12:00:34+01:00
+
+====== Systemy pozycyjne ======
+Created środa 17 styczeń 2018
+
+-system liczbowy:
+*binarny;
+*ósemkowy;
+*szesnastkowy;
+
+*MMXVIII-2018
+*MDXXX-1530
+*MCCCLXIV-1364
+
+234(6)=2*6^2+ 3*6^1+4*6^0=72+18+4
+234(4)=nie można zapisać, ponieważ podstawa nie może być cyfrą w danym systemie.
+234(5)=2*5^2+3*5^1+4*5^0=50+15+4=69
+
+1111(2)=2^0+2^1+2^2+2^3+2^4+2^5+2^6+2^7=1+2+4+8+16+32+64+128
+1111(2)=8+4+2+1=15
+na 4 bitach, 16 różnych wartości(15+1)bo jeszcze 0 
+1001=8+1=9
+10010011=2^7=128+16+2+1=147
+
+System szesnastkowy, podstawa 16 (0-9)
+10-A
+11-B
+12-B
+13-D
+14-E
+15-F
+FF=16^1=15*16+15*1=255
+
+System podstawa 8 (0-7)
+644=6*8^2+4*8^1+4*8^0=6*64+4*8+4=420
