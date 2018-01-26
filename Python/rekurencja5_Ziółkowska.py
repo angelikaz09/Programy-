@@ -2,7 +2,16 @@
 # -*- coding: utf-8 -*-
 
 
+def ciag(n):
+    if n == 0:
+        return 0
+    return ciag(n-1) + 1 + (n-1) * 2
+
+
 def main(args):
+    n = int(input('Podaj wyraz ciagu: '))
+    print (ciag(n))
+
     return 0
 
 
