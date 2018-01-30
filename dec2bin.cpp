@@ -1,7 +1,6 @@
 /*
  * dec2bin.cpp
  * 
- * 
  */
 
 
@@ -10,49 +9,50 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    // dane wejściowe
-    char znak A;
-    char znak B;
-    cout <<"Podaj liczbe i podstawe:";
-    cin>>liczba;
-    int liczba=;
-    // 120-64=56
-    // 56-32=24
-    // 24-16=8
-    // 8-8=0
-    // 111100
-    int podstawa=;
+    // dane wejsciowe
+    char znakA = 'A';
+    char znakB = 'B';
+    int l14 = 14;
+    int l15 = 15;
+    cout << (int)znakA << (int)znakB << endl;
+    cout << (char)l14 << (char)l15 << endl;
+    int reszty[16];
+	int liczba = 0;
+    int podstawa = 0;
+    
+    cout << "Podaj liczbę i podstawę: ";
+    cin >> liczba >> podstawa;
     
     // algorytm
-    
-    int i=0; // wskazuje ile reszt otrzymamy
-    do { // petla wykona sie jeden raz 
-        reszty [i] <<liczba%podstawa;
+    int i = 0; // indesk tabeli
+    do
+    {  // petla wykona sie przynajmniej raz
+        reszty[i] = liczba % podstawa;
         liczba = liczba / podstawa;
         i++;
-    } while(liczba>0);
+    }while(liczba > 0);
     
-    //~for (int  =i-1; j>=0; j--)
+    //~for (int j = i - 1; j >= 0; j--)
+    //~{
+        //~cout << reszty [j];
+    //~} 
+    
+    
+    //~int j = i - 1;
+    //~while(j>=0)
+    //~{
         //~cout<<reszty[j];
+        //~j--;
     //~}
-   
-    } while (i-1>=0)
-        cout << reszty [i];
+    
+    while (i - 1 >= 0)
+    {
+        i--;
+        cout << reszty[i];
+        
     }
+    
 
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
