@@ -24,7 +24,7 @@ int main(int argc, char **argv)
     cin >> liczba >> podstawa;
     
     // algorytm
-    int i = 0; // indesk tabeli
+    int i = 0; // indeks tabeli
     do
     {  // petla wykona sie przynajmniej raz
         reszty[i] = liczba % podstawa;
