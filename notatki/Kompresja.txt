@@ -1,0 +1,78 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-31T12:10:25+01:00
+
+====== Kompresja ======
+Created środa 31 styczeń 2018
+
+Kompresja-zmniejszanie rozmiaru danych.
+Redundancja-nadmiarowość
+8bitów=1bajt
+
+Standard Unicode obejmuje przydział przestrzeni numeracyjnej poszczególnym grupom znaków oraz sposoby bajtowego kodowania znaków.Jest kilka metod kodowania, oznaczanych skrótowcami UCS (Universal Character Set) i UTF (Unicode Transformation Format). Do najważniejszych należą:
+**UTF-8-system kodowania Unicode, wykorzystujący od 1 do 6 bajtów do zakodowania pojedynczego znaku, w pełni kompatybilny z ASCII. Jest najczęściej wykorzystywany do przechowywania napisów w plikach i komunikacji sieciowej.
+
+000111000-__SOS__
+* • •— — —• • • __SOS__
+
+Kompresja może być **stratna** i **bezstratna**, alfabet morse'a jest __bezstratny__.
+
+__Kompresja bezstratna:__
+
+**Archiwum** – plik otrzymywany w procesie archiwizacji (często łączonej z kompresją) danych. Archiwa przygotowywane są przez programy archiwizujące. Celem archiwizacji jest umieszczenie wybranych plików w jednym, dużym pliku, zwanym archiwum. Obecnie, bardzo często łączy się archiwizowanie z kompresją, co powoduje także otrzymanie mniejszego rozmiaru archiwum wyjściowego, w porównaniu z sumą rozmiarów plików wejściowych.
+**Przykłady(rozszerzenia):**
+docx, xlsx,pptx-kompresja bezstratna, **X**-archiwum
+
+__Kompresja stratna__
+*jpeg,jpg-obrazek
+*png-grafika kompresowana
+bmp-bez kompresji 
+grafika rastrowa-kompresowana
+
+Audio video
+MKV (Matroska) - format przechowywania obrazu i dźwięku w jednym pliku (kontener multimedialny). Kontenery: strumień video i strumień audio .
+
+**Bitrate-**ilość danych na sekundę (bit/s):
+-MP3-**128 bit/s**
+-CD-**256 bit/s**
+-płytka CD-**320 bit/s**
+
+**Bitrate**(przepływność danych) :
+-kb-kilobit
+-Mg-megabit
+-MB-megabajt
+
+
+__Kod ASCII:__
+0-**null-**nic
+10-**Line Feed(**LF)-koniec lini
+**Carriage Return**-powrót
+Znak końca lini w systemach **WINDOWS** składa się z LF i CR
+od 65-duży alfabet
+od 97-mały alfabet
+
+
+Unikod:
+-UTF-8 - system kodowania Unicode, wykorzystujący od 1 do 6 bajtów do zakodowania pojedynczego znaku, w pełni kompatybilny z ASCII. Jest najczęściej wykorzystywany do przechowywania napisów w plikach i komunikacji sieciowej.
+
+__Kod Morse’a__ – stworzony w 1838 przez Samuela Morse’a i Alfreda Vaila sposób reprezentacji alfabetu, cyfr i znaków specjalnych za pomocą dźwięków, błysków światła, impulsów elektrycznych lub znaków popularnie zwanych kreską i kropką.
+Kompresja bezstratna, zmniejszamy ilość informacji i nie tracimy jej, przykład algorytmu statycznego.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

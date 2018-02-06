@@ -40,8 +40,6 @@ def other2dec(liczba, podstawa):
             liczba10 += int(cyfra) * (podstawa ** potega)
         potega -= 1
 
-
-
     return liczba10
 
 
