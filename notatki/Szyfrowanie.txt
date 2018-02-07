@@ -8,3 +8,11 @@ Created wtorek 06 luty 2018
 Szyfrogram (lub inaczej kryptogram) – wiadomość, która została zaszyfrowana.
 __Rodzaje szyfrów:__
 -szyfry podstawieniowe
+-szyfry przestawieniowe:
+
+KLucz to ilość kolumn, na które dzielimy tekst.
+TOBEORNOTTOBE
+
+
+tokaobnbeqdetu.
+ohe.
