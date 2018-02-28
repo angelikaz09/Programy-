@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-27T12:59:51+01:00
+
+====== Ćwiczenie domowe ======
+Created wtorek 27 luty 2018
+
+Zaszyfruj swoje dane osobowe:
+Imię, nazwisko, da

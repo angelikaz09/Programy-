@@ -16,3 +16,5 @@ TOBEORNOTTOBE
 
 tokaobnbeqdetu.
 ohe.
+
+Szyfr Vigenère’a– jeden z klasycznych algorytmów szyfrujących. Należy on do grupy tzw. polialfabetycznych szyfrów podstawieniowych. Szyfr ten błędnie został przypisany twórcy bardziej skomplikowanego szyfru Blaise’owi de Vigenère.

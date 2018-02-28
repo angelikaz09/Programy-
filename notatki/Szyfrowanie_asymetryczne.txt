@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-27T13:02:34+01:00
+
+====== Szyfrowanie asymetryczne ======
+Created wtorek 27 luty 2018
+
+Protokół HTTPS - szyfrowana wersja protokołu HTTP
+*SSL
+*TLS
+Certyfikat-wystawiany przez urząd certyfikacji, firmy która gwarantuje tożsamość osoby, która posiada ten certyfikat .
+
+**Pretty Good Privacy (PGP)** – narzędzie do szyfrowania poczty elektronicznej.
+
+Kryptografia klucza publicznego (nazywana również kryptografią asymetryczną) to rodzaj kryptografii.
+**Klucz publiczny**-ciąg cyfr, które podajemy do publicznej wiadomości, możemy go udostępniać, np. bankowi, seriwisowi internetowemu, instytucji publicznej. Zabezpieczany hasłem.
+
+**RSA** – jeden z pierwszych i obecnie najpopularniejszych asymetrycznych algorytmów kryptograficznych z kluczem publicznym, zaprojektowany w 1977 przez Rona Rivesta, Adi Shamira oraz Leonarda Adlemana. 
+
+**Podpis elektroniczny** – w szerokim znaczeniu zbiór środków technicznych, organizacyjnych oraz prawnych, które zapewniają autentyczność oraz skutki prawne dokumentów elektronicznych. Od strony technicznej podpis elektroniczny jest realizowany za pomocą mechanizmów podpisu cyfrowego.
+
+**SSH**-przyklad stosowania kryptografii klucza publicznego 
