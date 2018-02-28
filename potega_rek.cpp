@@ -14,7 +14,7 @@ float poteguj_rek(float a, float n)
 }
 
 
-float poteguj_it(float a, float n)
+float poteguj_it(float a, float n).
 {
     float wynik = 1;
     
