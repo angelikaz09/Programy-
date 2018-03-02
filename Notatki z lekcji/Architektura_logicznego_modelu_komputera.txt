@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-02T11:22:18+01:00
+
+====== Architektura logicznego modelu komputera ======
+Created piątek 02 marzec 2018
+
+**Architektura von Neumanna** – pierwszy rodzaj architektury komputera, opracowanej przez Johna von Neumanna, Johna W. Mauchly’ego oraz Johna Presper Eckerta w 1945 roku. Cechą charakterystyczną tej architektury jest to, że dane przechowywane są wspólnie z instrukcjami, co sprawia, że są kodowane w ten sam sposób.
+*Napięcie 3-5V=1
+*Napięcie 0,2V=0
+Procesor składa się z rejestrów(komórki, w których zapisywane są różne dane )
+-akumulator 
+Rozmiary rejestru współczesnego procesa to 64bit(maksymalna liczba do przechowywania 2^63)
+
+**Pamięć RAM-** pamięć o dostępie swobodnym – podstawowy rodzaj pamięci cyfrowej. 
+Control Unit Jednostka sterująca(taktyczna)-komunikuje sie z pamięcią za pomocą szyny systemowej(częstotliwość podawana w MHz).
+Obok szyny systemowej mamy **szyne danych**, która służy do przesyłania tych danych w odpowiedniej częstotliwości 
+S**zyna adresowa**-decyduje o tym gdzie trafiają te dane 
+Część danych bierze się z pamięci ROM.
+**ROM** w odróżnieniu od RAMU stale utrzymuje dane 
+Urządzenia wyjścia i wejścia 
