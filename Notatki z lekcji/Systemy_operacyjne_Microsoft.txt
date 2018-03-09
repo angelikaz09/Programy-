@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-09T11:00:46+01:00
+
+====== Systemy operacyjne Microsoft ======
+Created piątek 09 marzec 2018
+
+DOS-stacja dyskietek 
+Ścieżka względna-sposób dotarcia
+ls / - wyświetlanie katalogów
+.. - poziom do góry 
+exe,com
+**Atrybuty w DOS:**
+a-archiw-plik zapisany na dysku 
+r-tylko do odczytu 
+h-plik ukryty
+s-plik systemowy 
+64 kB-maksymalny rozmiar programu 
+DOS wykorzystywał tryb rzeczywisty procesora 
+GUI-graficzny interfejs użytkownika 
+Elementy DOSa:
+-pasek tytułu
+-menu 
+-przyciski minimalizacji,maksymalizacji
+-przycisk zamknięcia 
+-programy urachamiane za pomocą ikon 
+Microsoft ustandaryzował interfejs 
+Interfejs kafelkowy-Windows 8 
