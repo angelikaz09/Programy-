@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-13T12:49:57+01:00
+
+====== Linux ======
+Created wtorek 13 marzec 2018
+
+System **własnościowy**
+System **zamknięty**
+**Open source**-dotyczy każdego programu, tworzone przez ludzi z całego świata.  
+Dystrybucja Linuxa składa się z jądra, interfejsu oraz oprogramowania dodatkowego.
+System w linuxie to dystrybucja:
+***debian**-najważniejsza dystrybucja, źródłowa
+***ubuntu**
+***linux mint**     
+Program **RUFUS**
+Wyróżniamy dwa sposoby partycjowania dysku twardego.
+**Partycja**-część dysku
