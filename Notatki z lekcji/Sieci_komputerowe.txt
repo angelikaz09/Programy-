@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-21T11:58:54+01:00
+
+====== Sieci komputerowe ======
+Created środa 21 marzec 2018
+
+**Model TCP/IP** – teoretyczny model warstwowej struktury protokołów komunikacyjnych. Model TCP/IP został stworzony w latach 70. XX wieku w DARPA, aby pomóc w tworzeniu odpornych na atak sieci komputerowych. Potem stał się podstawą struktury Internetu.
+Protokół internetowy został stworzony przez Agencję Zaawansowanych Projektów Badawczych Departamentu Obrony Stanów Zjednoczonych (DARPA) we wczesnych latach 70. Po utworzeniu pionierskiego projektu ARPANET (pierwsza na świecie sieć rozległa), DARPA rozpoczęła wielokierunkowe prace nad technologiami przesyłu danych.
+***Aplikacja** dba o to, żeby dane do niej przesyłane przedstawić w formie wizualnej. 
+***Warstwa prezentacji**
+***Sesja** 
+Protokoły funkcjonujące w warstwie aplikacji:
+***HTTP/HTTPS**
+***FTP**
+***POP**-wykorzystywany przez aplikacje do odbioru poczty 
+***SSH-**wykorzystywany do łączenia się miedzy komputerami, protokół bezpiecznej komunikacji sieciowej 
+**System DNS-Domain Name System**-system serwerów, protokół komunikacyjny oraz usługa obsługująca rozproszoną bazę danych adresów sieciowych. Pozwala na zamianę adresów znanych użytkownikom Internetu na adresy zrozumiałe dla urządzeń tworzących sieć komputerową. Dzięki DNS nazwa mnemoniczna, np. pl.wikipedia.org jest tłumaczona na odpowiadający jej adres IP, czyli 91.198.174.192.
+DNS to złożony system komputerowy oraz prawny. Zapewnia z jednej strony rejestrację nazw domen internetowych i ich powiązanie z numerami IP. Z drugiej strony realizuje bieżącą obsługę komputerów odnajdujących adresy IP odpowiadające poszczególnym nazwom. Jest nieodzowny do działania prawie wszystkich usług sieci Internet.
+Jego podstawową cechą jest to, że jest to baza rozproszona
+**TLD-**Top Level Domain
+Adres URl
+Poddmena-nazwy rezerwowane dla całych instytucji, firm 
+WWW-nazwa hosta
+PL-najwyższa domena 
