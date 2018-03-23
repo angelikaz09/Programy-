@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-23T10:58:46+01:00
+
+====== Warstwa transportowa i internetowa ======
+Created piątek 23 marzec 2018
+
+Protokół sterowania transmisją, protokół kontroli transmisji, **TCP** (od ang. Transmission Control Protocol) – połączeniowy, niezawodny, strumieniowy protokół komunikacyjny stosowany do przesyłania danych między procesami uruchomionymi na różnych maszynach, będący częścią szeroko wykorzystywanego obecnie stosu TCP/IP (korzysta z usług protokołu IP do wysyłania i odbierania danych oraz ich fragmentacji wtedy, gdy jest to konieczne). Protokół sterowania transmisją operuje w warstwie transportowej modelu OSI.Ma dwie bardzo ważne cechy.
+**Jest :**
+***połączeniowy**, ponieważ tworzy połączenia 
+*** niezawodny**
+*** stanowy** 
+Port sieciowy- 
+Porty mające numer od 0 do 1000 są to porty dobrze znane.
+**Numer sekwencyjny** i **suma kontrolna** zapewniają niezawodność.
+**Suma kontrolna**-informuje protokół, czy paczka dotrze w całości.
+UDP-protokół transportowy
+Protokół internetowy IP-obowiązuje IP w wersji 4
+IP składa się z 32 bitów
+Najważniejszym podziałem jest podział na:
+*pula adresów prywatnych: od 10-prywatna, od 172.16-adres prywatny 
+*pula adresów lokalnych
+192.168.3 - adres sieci (1-254)
+192.168.3. 255 - broadcast-wykorzystywany po to, by nadać komunikat do wszystkich hostów w danej podsieci.Maska-ilość bitów zarezerwowanycn na sieć.0-oznacza sieć, 255-broadcast 
+Router zamienia adresy lokalne na adresy publiczne i odwrotnie. Jest to mechanizm zwany NAT(National Address Translation).
