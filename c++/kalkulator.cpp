@@ -24,9 +24,9 @@ int main(int argc, char **argv)
     if (znak == '-')
         cout <<"Wynik"<< a - b << endl;
     if (znak == '*')
-        cout <"Wynik"<< a * b << endl;
+        cout <<"Wynik"<< a * b << endl;
     if (znak == '/')
-        cout <"Wynik"<< a / b << endl;
+        cout <<"Wynik"<< a / b << endl;
         
         
     return 0;
